@@ -64,7 +64,7 @@ export default function Hero() {
       {/* Footer / Tech Indicators */}
       <div className="flex justify-between items-end z-10">
         <div className="flex gap-4">
-          {['Next.js', 'TypeScript', 'Node.js'].map((tech) => (
+          {['Next.js', 'Automation', 'Ai Chatbot', 'Full-stack'].map((tech) => (
             <span key={tech} className="text-xs text-zinc-500 font-mono border-b border-transparent hover:border-zinc-500 transition-colors cursor-default">
               {tech}
             </span>
