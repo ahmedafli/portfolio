@@ -29,7 +29,7 @@ const projects = [
         title: 'WhatsApp Travel Agent',
         desc: 'Conversational AI agent that handles travel booking inquiries 24/7, ensuring zero missed opportunities.',
         tags: ['WhatsApp API', 'Telegram API', 'javascript', 'Automation', 'Database Management'],
-        videoUrl: 'https://www.youtube.com/embed/vu5fYPcc0ao?autoplay=1',
+        videoUrl: 'https://www.youtube.com/embed/fuMbyvskHF0?autoplay=1',
         featured: false,
         details: {
             problem: 'Transportation service owners lose clients due to delayed responses, miss inquiries during off-hours, and waste time on repetitive booking questions - costing them revenue and growth.',
