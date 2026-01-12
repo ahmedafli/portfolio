@@ -79,12 +79,12 @@ export default function Projects() {
                     <button className="text-xs text-zinc-500 hover:text-white transition-colors">View All</button>
                 </div>
 
-                <div className="flex-1 space-y-4 overflow-y-auto pr-2 custom-scrollbar">
+                <div className="flex-1 space-y-6 md:space-y-4 overflow-y-auto pr-2 custom-scrollbar pb-6">
                     {projects.map((project, i) => (
                         <div
                             key={project.id}
                             onClick={() => setSelectedProject(project)}
-                            className={`group relative rounded-xl border border-white/5 bg-black/20 overflow-hidden hover:bg-white/5 transition-all duration-300 cursor-pointer ${project.featured ? 'min-h-[220px]' : 'min-h-[140px]'}`}
+                            className={`group relative rounded-xl border border-white/5 bg-black/20 overflow-hidden hover:bg-white/5 transition-all duration-300 cursor-pointer ${project.featured ? 'min-h-[220px]' : 'min-h-[200px] md:min-h-[140px]'}`}
                         >
                             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent z-10" />
 
