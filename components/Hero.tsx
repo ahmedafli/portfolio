@@ -29,17 +29,17 @@ export default function Hero() {
       </div>
 
       {/* Main Content */}
-      <div className="space-y-4 z-10 mt-12 mb-12 flex flex-col items-center text-center w-full">
+      <div className="space-y-4 z-10 mt-8 mb-12 flex flex-col items-center text-center w-full">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="relative w-24 h-24 mb-4 rounded-full overflow-hidden border border-white/10 shadow-2xl bg-white"
+          className="relative w-40 h-40 mb-0 flex items-center justify-center pointer-events-none select-none"
         >
           <img
-            src="/logo.jpg"
+            src="/logo.png"
             alt="DoubleA Logo"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain drop-shadow-2xl scale-[1.8]"
           />
         </motion.div>
         <motion.h1

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "DoubleA - Building Products That Solve Real Problems",
   description: "Portfolio of DoubleA - A self-taught builder creating practical software solutions.",
   icons: {
-    icon: '/logo.jpg',
+    icon: '/logo.png',
   },
 };
 
