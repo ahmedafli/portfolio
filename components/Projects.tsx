@@ -1,6 +1,6 @@
 'use client';
 
-import { Play, ArrowUpRight, Github, X, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { Play, X, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -213,15 +213,7 @@ export default function Projects() {
                                     )}
                                 </div>
 
-                                {/* Actions */}
-                                <div className="mt-8 pt-8 border-t border-white/5 flex gap-3">
-                                    <button className="flex-1 py-3 bg-white text-black rounded-xl font-medium hover:bg-zinc-200 transition-colors flex items-center justify-center gap-2">
-                                        Visit Project <ArrowUpRight className="w-4 h-4" />
-                                    </button>
-                                    <button className="px-5 py-3 bg-zinc-900 border border-white/10 text-white rounded-xl hover:bg-zinc-800 transition-colors">
-                                        <Github className="w-5 h-5" />
-                                    </button>
-                                </div>
+
                             </div>
                         </motion.div>
                     </motion.div>
